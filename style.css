@@ -1,0 +1,367 @@
+@font-face {
+    font-family: apple;
+    src: url(/sf-pro-display_regular.woff2);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: apple;
+}
+
+#html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+    position: fixed;
+    background-color: #F5F5F7;
+}
+
+#nav h4{
+    font-weight: 400;
+    font-size: 80%;
+}
+
+#ipn{
+    height: 620px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 80px 30px;    
+    background-image: url(/iphoneimg.jpg);
+    background-size: 75%;
+    background-position: center;
+    /* background-color: green; */
+}
+
+#ipn h1{
+    color: white;
+    font-size: 58px;
+    font-weight: 600;
+}
+
+#ipn h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+#ipn #btn{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* background-color: red; */
+    gap: 20px;
+}
+
+#btn button{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+}
+
+
+#iphoneair{
+    margin-top: 15px;
+    width: 100%;
+    height: 600px;
+    background-color: #F5F5F7;
+    background-image: url(/hero_iphone_air__0gxyavihpiqu_mediumtall.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+}
+
+#iphoneair h1{
+    font-size: 58px;
+    font-weight: 600;
+}
+
+#iphoneair h2{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+#iphoneair #btn2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+#btn2 button{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+}
+
+#ipn17{
+    margin-top: 15px;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#ipn17 h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#ipn17 h2{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#ipn17 #left17{
+    margin-inline-start: 15px;
+    margin-inline-end: 7px;
+    padding: 40px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-image: url(/promo_iphone_17__bhofuohbsu3m_medium.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#ipn17 #btn3{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+#left17 button{
+    font-size: 15px;
+    padding: 8px 17px;
+    border-radius: 30px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+}
+
+#ipn17 #right17{
+    margin-inline-end: 15px;
+    margin-inline-start: 7px;
+    padding: 40px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-image: url(/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#ipn17 #btn4{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+#right17 button{
+    font-size: 15px;
+    padding: 8px 17px;
+    border-radius: 30px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+}
+
+#right17 img{
+    width: 45%;
+    height: auto;
+}
+
+#ipn172{
+    margin-top: 15px;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#ipn172 h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#ipn172 h2{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#ipn172 #left172{
+    margin-inline-start: 15px;
+    margin-inline-end: 7px;
+    padding: 40px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-image: url(/promo_airpodspro_3__f6xmza7bglei_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#ipn172 #btn5{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+#left172 button{
+    font-size: 15px;
+    padding: 8px 17px;
+    border-radius: 30px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+}
+
+#ipn172 #right172{
+    background-image: url(/promo_apple_watch_se_3__fz5y29qx5mmy_medium.jpg);
+    margin-inline-end: 15px;
+    margin-inline-start: 7px;
+    padding: 40px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-position: bottom;
+    background-size: cover;
+}
+
+#ipn172 #btn6{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+#right172 button{
+    font-size: 15px;
+    padding: 8px 17px;
+    border-radius: 30px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+}
+
+#right172 #img2{
+    width: 35%;
+    height: auto;
+}
+
+#ipn173{
+    margin-top: 15px;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#ipn173 h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#ipn173 h2{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#ipn173 #left173{
+    margin-inline-start: 15px;
+    margin-inline-end: 7px;
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-image: url(/promo_macbook_air__fqowrtnxewqe_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#ipn173 #btn7{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+#left173 button{
+    font-size: 15px;
+    padding: 8px 17px;
+    border-radius: 30px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+}
+
+#ipn173 #right173{
+    background-image: url(/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+    margin-inline-end: 15px;
+    margin-inline-start: 7px;
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-position: bottom;
+    background-size: cover;
+}
+
+#ipn173 #btn8{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+#right173 button{
+    font-size: 15px;
+    padding: 8px 17px;
+    border-radius: 30px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+}
+
+#right173 #img3{
+    width: 25%;
+    height: auto;
+}
+
+
+#main .buyy{
+    background-color: white;
+    color: #0077ED;
+    border: 1px solid #0077ED;
+}
+
+#main .blkbuy{
+    background-color: black;
+    color: #0077ED;
+    border: 1px solid #0077ED;
+}
