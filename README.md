@@ -21,8 +21,4 @@ https://abhinav00510.github.io/project-4-appleclone/
 
 - HTML5
 - CSS3
-
 ---
-
-```bash
-git clone https://github.com/abhinav00510/project-4-appleclone.git
