@@ -24,9 +24,5 @@ https://abhinav00510.github.io/project-4-appleclone/
 
 ---
 
-## 📂 Project Setup
-
-Clone the repository:
-
 ```bash
 git clone https://github.com/abhinav00510/project-4-appleclone.git
